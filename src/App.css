@@ -1,0 +1,143 @@
+body {
+  font-size: 0.9rem;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.75rem;
+}
+
+.back-group {
+  display: flex;
+  align-items: center;
+}
+
+.icon-header {
+  width: 1rem;
+  margin-right: 5px;
+}
+
+.logo-header {
+  width: 11rem;
+  margin-left: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid #333;
+  padding: 4px 10px;
+  font-size: 0.9rem;
+  min-width: 90px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main form {
+  min-width: 500px;
+}
+
+.main h1 {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.main .form-input-group {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border: 1px solid #DDDDDD;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.main .form-input-group label {
+  color: #555555;
+}
+
+.main .form-input-group input {
+  border: none;
+  outline: none;
+}
+
+.main .form-input-group input::placeholder {
+  color: rgba(85, 85, 85, 0.6);
+  font-size: 0.8rem;
+}
+
+.main .btn-form-submit {
+  background-color: #00BD56;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  padding: 15px;
+  font-weight: 500;
+  color: white;
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.main .form-checkbox-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.main .form-checkbox-group label {
+  color: rgba(85, 85, 85, 0.7);
+  margin-left: 5px;
+}
+
+.main .form-checkbox-group input {
+  cursor: pointer;
+  font-size: 14px;
+  width: 15px;
+  height: 18px;
+  position: relative;
+}
+
+.main .form-checkbox-group input[type="checkbox"]:after {
+  position: absolute;
+  width: 10px;
+  height: 15px;
+  top: 0;
+  content: " ";
+  background-color: white;
+  border: 1px solid #DDD;
+  display: inline-block;
+  visibility: visible;
+  padding: 0px 3px;
+  border-radius: 3px;
+}
+
+.main .form-checkbox-group input[type="checkbox"]:checked:after {
+  content: "\2714";
+  font-size: 14px;
+}
+
+.main .forgot-group {
+  display: flex;
+  margin: 1.5rem 6rem;
+  justify-content: space-around;
+}
+
+.main .forgot-group a {
+  text-decoration: underline;
+}
